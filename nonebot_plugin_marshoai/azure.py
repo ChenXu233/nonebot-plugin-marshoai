@@ -244,7 +244,7 @@ async def marsho(
         nicknames = await get_nicknames()
         user_nickname = nicknames.get(user_id, "")
         if user_nickname != "":
-            nickname_prompt = f"\n*此消息的说话者:{user_nickname}*"
+            nickname_prompt = f"\n*此消息的说话者id为:{user_id}，名字为:{user_nickname}*"
         else:
             nickname_prompt = ""
             # 用户名无法获取，暂时注释

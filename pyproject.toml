@@ -9,7 +9,7 @@ authors = [
     { name="LiteyukiStudio", email = "support@liteyuki.icu"}
 ]
 dependencies = [
-    "nonebot2>=2.2.0",
+    "nonebot2[fastapi]>=2.4.0",
     "nonebot-plugin-alconna>=0.48.0",
     "nonebot-plugin-localstore>=0.7.1",
     "azure-ai-inference>=1.0.0b4",
@@ -24,7 +24,9 @@ dependencies = [
     "litedoc>=0.1.0.dev20241214103915",
     "newspaper3k>=0.2.8",
     "lxml[html_clean]>=5.3.0",
-    "aiofiles>=24.1.0"
+    "aiofiles>=24.1.0",
+    "nonebot-adapter-onebot>=2.4.6",
+    "nonebot-plugin-apscheduler>=0.5.0"
 
 ]
 license = { text = "MIT, Mulan PSL v2" }
