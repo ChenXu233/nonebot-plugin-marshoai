@@ -73,3 +73,6 @@ dev = [
 test = [
     "nonebug>=0.4.3",
 ]
+
+[tool.ruff.lint]
+ignore = ["E402"]
