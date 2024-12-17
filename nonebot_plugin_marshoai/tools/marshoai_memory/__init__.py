@@ -1,9 +1,8 @@
 from pathlib import Path
-from nonebot_plugin_localstore import get_data_file
 from nonebot import require
 
-require("nonebot_plugin_apschduler")
-from nonebot_plugin_apscheduler import scheduler
+require("nonebot_plugin_localstore")
+from nonebot_plugin_localstore import get_data_file
 import json
 
 memory_path = get_data_file("marshoai", "memory.json")
